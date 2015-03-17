@@ -97,6 +97,7 @@ if (!empty($_GET['id']))
 </div>
 
 <nav>
+<a href="./add.php">토픽추가</a>	
 <ul>
 <?php
 $sql = "select id,title from topic";
